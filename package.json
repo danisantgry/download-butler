@@ -3,6 +3,17 @@
   "version": "0.1.0",
   "description": "A cautious TypeScript CLI that organizes messy download folders with rule-based dry runs, scans, and watch mode.",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danisantgry/download-butler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danisantgry/download-butler/issues"
+  },
+  "homepage": "https://github.com/danisantgry/download-butler#readme",
   "bin": {
     "download-butler": "./dist/cli.js"
   },
