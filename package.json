@@ -1,0 +1,30 @@
+{
+  "name": "download-butler",
+  "version": "0.1.0",
+  "description": "A cautious TypeScript CLI that organizes messy download folders with rule-based dry runs, scans, and watch mode.",
+  "type": "module",
+  "bin": {
+    "download-butler": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "downloads",
+    "organizer",
+    "cli",
+    "typescript",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^6.0.3",
+    "vitest": "^3.2.4"
+  }
+}
