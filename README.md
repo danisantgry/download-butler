@@ -61,6 +61,8 @@ Example rule:
 
 Dry run is the default. Files are moved only with `--apply`. Existing targets are renamed by default, and hidden files are ignored unless config changes that behavior.
 
+See [`docs/SAFETY_MODEL.md`](docs/SAFETY_MODEL.md) for the full safety model and recommended workflow.
+
 ## Roadmap
 
 - Rule presets for common workflows.

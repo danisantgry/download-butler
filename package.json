@@ -1,6 +1,6 @@
 {
   "name": "download-butler",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A cautious TypeScript CLI that organizes messy download folders with rule-based dry runs, scans, and watch mode.",
   "type": "module",
   "engines": {

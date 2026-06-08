@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 - 2026-06-08
+
+- Added a documented safety model for dry runs, apply mode, rule order, and non-goals.
+- Updated README to point maintainers to the safety workflow.
+
 ## 0.1.1 - 2026-06-01
 
 - Updated test tooling to remove known development dependency vulnerabilities.
